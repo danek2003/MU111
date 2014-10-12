@@ -50,7 +50,7 @@ class LecturesViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-   // При нажатии на Tap Gesture Recognizer( в любое место-заканчиваем вводл)
+   // При нажатии на Tap Gesture Recognizer( в любое место-заканчиваем ввод и скрываем клаву)
     @IBAction func BackgroundTap(sender: AnyObject) {
         self.view.endEditing(true)
     }
