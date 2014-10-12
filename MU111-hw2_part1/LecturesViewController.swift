@@ -17,12 +17,13 @@ class LecturesViewController: UIViewController {
     @IBAction func LoginButton(sender: AnyObject) {
         LoginViewInfo.text = "логин: \(LoginTextField.text)  Пароль:  \(PasswordTextField.text)"
         println("ввел логин: \(self.LoginTextField.text) и пароль: \(self.PasswordTextField.text)")
-  
+
         var myAlertView = UIAlertView()
       //  myAlertView.title = "Info"
         myAlertView.message = "ввел логин: \(self.LoginTextField.text) и пароль: \(self.PasswordTextField.text)"
         myAlertView.addButtonWithTitle("ok")
         myAlertView.show()
+       
     }
     
     
@@ -43,4 +44,5 @@ class LecturesViewController: UIViewController {
 
 
 }
+
 

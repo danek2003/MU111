@@ -73,6 +73,24 @@
             </objects>
             <point key="canvasLocation" x="130" y="299"/>
         </scene>
+        <!--Second View Controller-->
+        <scene sceneID="066-ai-Jq6">
+            <objects>
+                <viewController id="KvW-gJ-v8W" customClass="SecondViewController" customModule="MU111_hw2_part1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="khH-yV-Ka8"/>
+                        <viewControllerLayoutGuide type="bottom" id="zai-j4-1FW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ba4-AT-on3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D8j-bq-oQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="926"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
