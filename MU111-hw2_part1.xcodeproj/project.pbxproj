@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		957E95C019E960EC0085C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E95BF19E960EC0085C963 /* AppDelegate.swift */; };
 		957E95C219E960EC0085C963 /* LecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E95C119E960EC0085C963 /* LecturesViewController.swift */; };
-		957E95C519E960EC0085C963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957E95C319E960EC0085C963 /* Main.storyboard */; };
+		957E95C519E960EC0085C963 /* Lectures.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957E95C319E960EC0085C963 /* Lectures.storyboard */; };
 		957E95C719E960EC0085C963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957E95C619E960EC0085C963 /* Images.xcassets */; };
 		957E95CA19E960EC0085C963 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 957E95C819E960EC0085C963 /* LaunchScreen.xib */; };
 		957E95D619E960EC0085C963 /* MU111_hw2_part1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E95D519E960EC0085C963 /* MU111_hw2_part1Tests.swift */; };
@@ -31,7 +31,7 @@
 		957E95BE19E960EC0085C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957E95BF19E960EC0085C963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		957E95C119E960EC0085C963 /* LecturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesViewController.swift; sourceTree = "<group>"; };
-		957E95C419E960EC0085C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		957E95C419E960EC0085C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Lectures.storyboard; sourceTree = "<group>"; };
 		957E95C619E960EC0085C963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		957E95C919E960EC0085C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		957E95CF19E960EC0085C963 /* MU111-hw2_part1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MU111-hw2_part1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +82,7 @@
 				957E95BF19E960EC0085C963 /* AppDelegate.swift */,
 				957E95C119E960EC0085C963 /* LecturesViewController.swift */,
 				9599B67419EA51E10056D9B6 /* SecondViewController.swift */,
-				957E95C319E960EC0085C963 /* Main.storyboard */,
+				957E95C319E960EC0085C963 /* Lectures.storyboard */,
 				957E95C619E960EC0085C963 /* Images.xcassets */,
 				957E95C819E960EC0085C963 /* LaunchScreen.xib */,
 				957E95BD19E960EC0085C963 /* Supporting Files */,
@@ -195,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				957E95C519E960EC0085C963 /* Main.storyboard in Resources */,
+				957E95C519E960EC0085C963 /* Lectures.storyboard in Resources */,
 				957E95CA19E960EC0085C963 /* LaunchScreen.xib in Resources */,
 				957E95C719E960EC0085C963 /* Images.xcassets in Resources */,
 			);
@@ -240,12 +240,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		957E95C319E960EC0085C963 /* Main.storyboard */ = {
+		957E95C319E960EC0085C963 /* Lectures.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				957E95C419E960EC0085C963 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Lectures.storyboard;
 			sourceTree = "<group>";
 		};
 		957E95C819E960EC0085C963 /* LaunchScreen.xib */ = {
