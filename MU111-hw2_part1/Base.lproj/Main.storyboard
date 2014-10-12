@@ -62,14 +62,24 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ZaS-FQ-ZCw" appends="YES" id="kVT-7V-yys"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="LoginTextField" destination="WKs-zI-abe" id="C8l-je-dWS"/>
                         <outlet property="LoginViewInfo" destination="jM0-hX-6qG" id="Iob-nA-dwx"/>
                         <outlet property="PasswordTextField" destination="cDh-gS-loi" id="a3c-Xl-MnX"/>
+                        <segue destination="KvW-gJ-v8W" kind="modal" identifier="login_successfull" id="kCG-Gx-wtW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZaS-FQ-ZCw">
+                    <connections>
+                        <action selector="BackgroundTap:" destination="vXZ-lx-hvc" id="g5X-3D-hZD"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="130" y="299"/>
         </scene>
@@ -84,12 +94,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ba4-AT-on3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login Success" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWR-Da-Lzo">
+                                <rect key="frame" x="104" y="173" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8j-bq-oQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130" y="926"/>
+            <point key="canvasLocation" x="581" y="299"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

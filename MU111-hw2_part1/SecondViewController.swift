@@ -9,10 +9,16 @@
 import Foundation
 import UIKit
 
+class SecondViewController : LecturesViewController {
 
-class SecondViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        var myAlertView = UIAlertView()
+        myAlertView.title = "Congratulation!!!☀️" // Вызов Emoji Command+Space
+        myAlertView.message = "Login Success😳"
+        myAlertView.addButtonWithTitle("ok")
+        myAlertView.show()
+      
         // Do any additional setup after loading the view, typically from a nib.
     }
     
